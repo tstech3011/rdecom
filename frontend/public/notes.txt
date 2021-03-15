@@ -1,0 +1,63 @@
+Chapter 2. Starting The Front End
+
+Video 2.1
+1.  md ecom
+2.  npx create-react-app frontend
+3.  cd frontend
+4.  npm start  (tests installation is without error)
+5.  Copy images folder in the public folder; products.js in src folder; set favicon
+6.  Delete files - setupTests.js, App.test.js, App.css
+7.  Clean up App.js, index.css
+
+Video 2.2
+1.  components/Header.js (with test data)
+2.  components/Footer.js (with test data)
+3.  Download lux theme bootstrap.min.css from bootswatch.com in src folder; import in index.js
+4.  npm install react-bootstrap
+5.  Update Header.js and Footer.js
+6.  Get navbar from react-bootstrap.github.io and copy in Header.js and change it to meet the needs
+7.  Get fontawesome link from cdnjs.com and copy in index.html
+
+Video 2.3
+1.  screens/HomeScreen.js
+2.  components/Product.js
+
+Video 2.4
+1.  components/Rating.js
+
+Video 2.5
+1.  npm install react-router-dom
+2.  In App.js, change cover divs to <Router>
+3.  screens/ProductScreen.js
+4.  Change all a tage to Link to (reactify links)
+
+Video 2.6
+1.  Complete ProductScreen.js
+
+
+Chapter 3. Serving & Fetching Data From Django - Backend development
+
+Video 3.1. FrontendBackend Workflow
+1.  Complete project architecture and plan;
+
+Video 3.2. Building The Backend
+1.  Move back to ecom folder
+2.  pip list - Shows the list of packages installed globally
+3.  Setup Virtual Environment in ecom folder - pip install virtualenv; virtualenv myenv
+4.  Activate virtual environment while still being in ecom folder - myenv\scripts\activate
+5.  Install django - pip install django
+6.  Start the backend project - django-admin startproject backend
+7.  django manage.py startapp base
+8.  setup in base.views getRoutes, base.urls and then backend.urls
+9.  Get products.js from frontend and copy to base folder and convert the file and data into python 
+10. pip install djangorestframework
+11. Modify views to include rest framework features
+
+Video 3.3. Fetching Data
+1.  Install axios : npm install axios   [can use ajax, fetch]
+2.  Install django cors headers : pip install django-cors-headers
+3.  Update HomeScreen.js
+4.  Update ProductScreen.js
+
+Video 3.4. Database Setup & Admin Panel
+1.  
