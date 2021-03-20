@@ -61,3 +61,9 @@ Video 3.3. Fetching Data
 
 Video 3.4. Database Setup & Admin Panel
 1.  
+
+
+Video 4.2. Create Redux Store
+1.  Install Redux extention in the browser
+2.  npm install redux react-redux redux-thunk redux-devtools-extension
+3.  
