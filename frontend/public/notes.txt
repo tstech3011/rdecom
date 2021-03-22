@@ -67,3 +67,22 @@ Video 4.2. Create Redux Store
 1.  Install Redux extention in the browser
 2.  npm install redux react-redux redux-thunk redux-devtools-extension
 3.  
+
+Video 6.1. JSON Web Tokens Overview
+1.  Json Tokens - jwt.io
+
+Video 6.2. Postman Overview
+1.  postman.com
+
+Video 6.3. JSON Web Token Installation & Setup
+1.  Access tokens being setup
+2.  pip install djangorestframework-simplejwt
+3.  Follow instructions on https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html
+    to get it working
+4.  Then copy Settings from https://django-rest-framework-simplejwt.readthedocs.io/en/latest/settings.html to settings.py
+    and make necessary fine tunings e.g change token validity to 30 days
+5.  Run http://localhost:8000/api/users/login/ on the browser; Login by username and get access token. If you test the 
+    access token generated on jwt.io, you get the user id in your database
+
+Video 6.4. JWT Customization
+1.  
