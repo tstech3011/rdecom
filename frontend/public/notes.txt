@@ -86,3 +86,7 @@ Video 6.3. JSON Web Token Installation & Setup
 
 Video 6.4. JWT Customization
 1.  
+
+Video 7.1. User Login Reducer & Action
+1.  Modified productActions.js
+2.  
